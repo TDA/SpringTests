@@ -3,7 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-       <bean id="helloWorld" class="HelloSpring">
-              <property name="message" value="Hello to the World"></property>
-       </bean>
+    <bean id="helloWorld" class="HelloSpring">
+        <property name="message" value="Hello to the World"></property>
+    </bean>
+
+    <bean id="sai" class="HelloSpring">
+        <property name="sai" value="hhhhhh"></property>
+    </bean>
 </beans>

@@ -11,6 +11,7 @@ public class MainAppHello {
 
         HelloSpring obj = (HelloSpring) context.getBean("helloWorld");
 
+        obj.getSai();
         obj.getMessage();
     }
 }
